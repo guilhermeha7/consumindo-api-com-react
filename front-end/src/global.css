@@ -1,0 +1,13 @@
+.text-primary-color {
+    color:blueviolet
+}
+
+.btn-primary {
+  background-color: blueviolet;
+  border-color: blueviolet;
+}
+
+.btn-primary:hover {
+  background-color: #6a1bb1;
+  border-color: #6a1bb1;
+}
