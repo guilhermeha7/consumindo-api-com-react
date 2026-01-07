@@ -3,11 +3,18 @@
 }
 
 .btn-primary {
+  background-color: rgb(162, 63, 254);
+  border-color: rgb(162, 63, 254);
+}
+
+.btn-primary:hover {
   background-color: blueviolet;
   border-color: blueviolet;
 }
 
-.btn-primary:hover {
-  background-color: #6a1bb1;
-  border-color: #6a1bb1;
+.table {
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
 }
+

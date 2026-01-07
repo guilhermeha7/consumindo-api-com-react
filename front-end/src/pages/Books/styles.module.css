@@ -1,0 +1,13 @@
+.navbarColor {
+  background-color: #8a2be2;
+}
+
+.pxCustom {
+    padding-left: 18rem !important;
+    padding-right: 18rem !important;
+}
+
+.tHeaderFormatation th {
+  font-weight: 600;
+  font-size: 16px;
+}

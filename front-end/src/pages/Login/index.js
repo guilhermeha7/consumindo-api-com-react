@@ -10,10 +10,10 @@ function Login() {
             <section>
                 <img className={`img-fluid mb-4 d-block mx-auto ${styles.maxSize}`} src={userIcon} alt="Tela de Login"/> 
                 <form>
-                    <h2 className="fw-normal mb-4 text-center text-primary-color"> Access your Account </h2>
+                    <h3 className="fw-normal mb-4 text-center text-primary-color"> Access your Account </h3>
                     <input className="form-control mb-4" placeholder="Username" /> 
                     <input className="form-control mb-4" type="password" placeholder="Password" />
-                    <button className="btn btn-primary mb-4 w-100   " type="submit">Fazer Login</button>
+                    <button className="btn btn-primary mb-4 w-100" type="submit">Fazer Login</button>
                 </form>
             </section>
         </div>
