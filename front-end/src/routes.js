@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import Login from './pages/Login';
 import Books from './pages/Books';
 import AddBook from './pages/AddBook';
+import EditBook from './pages/EditBook';
 
 //Se o caminho for exatamente "/", mostre/renderize o componente Login
 function AppRoutes() {
@@ -11,6 +12,7 @@ function AppRoutes() {
             <Route path="/" element={<Login />} />
             <Route path="/books" element={<Books />} />
             <Route path="/add-book" element={<AddBook />} />
+            <Route path="/edit-book/:id" element={<EditBook />} />
         </Routes>
     )
 }
